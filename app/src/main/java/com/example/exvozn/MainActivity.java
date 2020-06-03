@@ -63,6 +63,7 @@ private Locale locale;
 
 
     protected Intent getRecognizerIntent() {
+        //teste
         Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         intent.putExtra(RecognizerIntent.EXTRA_PROMPT,"Fale Aqui !");
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE,"pt-BR");
